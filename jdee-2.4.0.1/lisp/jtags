@@ -131,10 +131,10 @@ fi
 
 echo "Tagging everything"
 find $java_dir \( -name RCS -prune \) -o \( -name CVS -prune \) -o \( -name '*.java' -print \) | xargs  \
-"${etags_dir}etags"  -l none -a -o ${java_dir}/TAGS  \
-"--regex=$class1" "--regex=$class2"  "--regex=$constructor"  \
-"--regex=$method1" "--regex=$method2" \
-"--regex=$var1" "--regex=$var2"
+"${etags_dir}etags"  -L none -a -o ${java_dir}/TAGS  \
+"--regex-java=$class1" "--regex-java=$class2"  "--regex-java=$constructor"  \
+"--regex-java=$method1" "--regex-java=$method2" \
+"--regex-java=$var1" "--regex-java=$var2"
 
 
 # History:
