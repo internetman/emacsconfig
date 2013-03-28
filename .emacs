@@ -21,7 +21,10 @@
 (autoload 'jde-mode "jde" "JDE mode." t)
 (setq auto-mode-alist
       (append '(("\\.java\\'" . jde-mode)) auto-mode-alist))
-;;defination of ecb 
+
+
+
+;;defination of ecb
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -45,3 +48,28 @@
 (require 'android-common)
 (require 'android-compile)
 (require 'android-host)
+
+;;jde-int  //transfer  eclipse project configuration to emacs .el . 
+(add-to-list 'load-path "~/.emacs.d/jde-int")
+(require 'jde-int)
+
+;;sina weibo 
+(add-to-list 'load-path "~/.emacs.d/weibo.emacs-master")
+(require 'weibo)
+
+;;emacs theme 
+(load-theme 'misterioso t)
+
+;;global-search
+(setq load-path (cons "~/.emacs.d/global" load-path))
+(autoload 'gtags-mode "gtags" "" t)
+; define some keys on gtags mode  , use f5 we could find a  class we want .
+(add-hook 'gtags-mode-hook
+ (lambda ()
+ (local-set-key (kbd "<f5>") 'gtags-find-tag)
+ )
+)
+
+
+;;my customized global  key 
+(global-set-key (kbd "<f1>") 'shell)
