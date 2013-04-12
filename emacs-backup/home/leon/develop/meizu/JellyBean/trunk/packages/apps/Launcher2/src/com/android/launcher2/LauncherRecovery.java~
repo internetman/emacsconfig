@@ -1,0 +1,29 @@
+package com.android.launcher2;
+
+
+
+import com.android.launcher2.utils.FileOperateUtils;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Environment;
+
+public class LauncherRecovery extends BroadcastReceiver {
+   
+    // 桌面Launcher DB恢复存放目录：
+    public static final String LAUNCHER_RESTORE_PATH = Environment.getExternalStorageDirectory().getPath() + "/AppCenter/LauncherRestore/launcher.db";
+    public static final String LAUCHER_SYSTEM_PATH = "/data/data/com.android.launcher/databases/launcher.db" ; 
+    public static final String NOTIFY_LAUNCHER_TO_RESTORE = "notify.launcher.to.restore";
+    public static final String NOTIFY_LAUNCHER_RESTORE_FINISHED = "notify.launcher.restore.finished";
+    public static final String NOTIFY_LAUNCHER_TO_BACKUP = "notify.launcher.to.backup";
+    public static final String NOTIFY_MSTORE_BACKUPED_CALLBACK = "notify.mstore.backuped.callback";
+    public void onReceive(Context context , Intent intent){
+		boolean launcherRestoreFlag = false;
+		launcherRestoreFlag = FileOperateUtils.copyFileCover(
+				LAUNCHER_RESTORE_PATH, LAUCHER_SYSTEM_PATH, true);
+		if (launcherRestoreFlag) {
+
+		}
+    }
+}

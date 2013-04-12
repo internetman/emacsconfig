@@ -1,0 +1,20 @@
+#!/bin/bash
+# Program:
+#	User inputs his first name and last name.  Program shows his full name.
+# History:
+# 2005/08/23	VBird	First release
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+cd ~/develop/meizu/JellyBean/trunk/
+. build/envsetup.sh
+chooseproduct
+#!/usr/bin/expect -f
+expect {
+    "*(Which product would you like?)*" { send "meizu_mx2\r" }
+}
+interact 
+exit
+mmm packages/apps/Launcher2/ 
+
+
+

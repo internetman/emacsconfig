@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/leon/Downloads/" . "global-6.2.7/")
+ ("/home/leon/" . "Downloads/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/leon/Downloads/"
+ "/home/leon/"
+ "/home/leon/Downloads/global-6.2.7/"
+ "/home/leon/Pictures/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "EMACS教程.pdf"
+ "05 - 甲午中日战争：划着洗澡盆都能过来的日本人_medium (1).mp4"
+ "kevin.jpg"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/leon/" (20830 62058) ".gksu.lock" "下载/" "android-sdk-linux/" "Pictures/" "mytest.txt~" ".ido.last" ".goutputstream-OVIRUW" ".viminfo" ".vimrc" ".goutputstream-QQDKUW" "Desktop/" "Templates/" ".emacsp" ".android/" ".goutputstream-YH70QW" ".mission-control/" ".goutputstream-GY90UW" ".ccache/" ".bash_logout" ".qt/" "Music/" ".pulse/" ".goutputstream-9UH6QW" "kdesvn-1.5.5-l2/" ".gnome2/" ".mozilla/" ".xsession-errors.old" ".pki/" ".goutputstream-U3L3UW" ".xsession-errors" ".goutputstream-1ZN8QW" "Downloads/" ".libreoffice/" "Documents/" ".goutputstream-AKEVUW" "../" ".bash_history" ".emacs.d(p)/" "android_source/" ".bashrc" ".emacs.d/" ".emacs" ".goutputstream-8N6WUW" "./" "test/" ".goutputstream-94ZOUW" ".emacs~" ".Xauthority" "Videos/" ".goutputstream-PODVUW" "bcompare-3.3.3.14128_amd64/" ".dbus/" ".goutputstream-61LLQW" ".local/" ".gvfs/" ".goutputstream-R331UW" ".filezilla/" ".esd_auth" ".emacs.before_ecb_2.40" ".gnome2_private/" ".goutputstream-TY2RTW" ".goutputstream-8VS0UW" ".gstreamer-0.10/" ".profile" "workspace/" ".vim/" "mytest/" ".wine/" ".t.weibo.emacs.d/" "bin/" "develop/" ".searchmonkey/" "examples.desktop" ".goutputstream-W98YSW" ".adobe/" "linuxsdk.tar" ".config/" ".aliedit/" ".windows-serial" ".goutputstream-Z4VNSW" "Public/" ".dmrc" ".beyondcompare/" ".pulse-cookie" "Source Insight/" ".thumbnails/" ".goutputstream-YMA7SW" ".goutputstream-JF0YQW" "aaa.java~" ".thunderbird/" "emacsplugins/" ".kde/" ".goutputstream-D4YWUW" ".gphoto/" "eclipse/" ".cache/" ".goutputstream-BS5YSW" ".macromedia/" ".projects.ede" ".svnqt/" "桌面/" ".goutputstream-6H74SW" ".gitconfig" ".compiz-1/" ".sudo_as_admin_successful" ".subversion/" ".bashrc~" ".goutputstream-1W5TQW" ".goutputstream-E743UW" ".ecb-tip-of-day.el" ".fontconfig/" ".gtk-bookmarks" ".gconf/" ".goutputstream-2OZSTW" "software/" ".ICEauthority" ".face")
+
+ ("/home/leon/Downloads/global-6.2.7/" (20725 8785) "gtags.el" "ChangeLog" "config.h" "htags/" "globash/" "THANKS" "libglibc/" "ltmain.sh" "libutil/" "DONORS" "elvis.rc" "libtool" "install-sh" "COPYING" "gozilla/" "gtags-cscope/" "gtags.conf" "GTAGS" "libltdl/" "GPATH" "Doxyfile.in" "BOKIN_MODEL" "INSTALL" "COPYING.LIB" "config-h.in" "Doxyfile" "LICENSE" "README" "reconf.sh" "depcomp" "acinclude.m4" "config.log" "mainpage.dox" "../" "gtags.conf.in" "FAQ" "config.sub" "libparser/" "./" "libdb/" "elvis-2.2_0.patch" "gtags.vim" "configure.ac" "global/" "gtags/" "convert.pl" "htags-refkit/" "NEWS" "script/" "BOKIN_MODEL_FAQ" "head.in" "stamp-h1" "m4/" "Makefile.am" "BUILD_TOOLS" "Makefile" "missing" "gtags-cscope.vim" "GRTAGS" "aclocal.m4" "config.guess" "AUTHORS" "config.status" "gtags.pl" "jquery/" "doc/" "Makefile.in" "icons/" "configure" "plugin-factory/")
+
+ ("/home/leon/Downloads/" (20830 61659) "session/" "elib-1.0.zip" "ibus-el_0.3.2.tar.gz" "cedet-1.0beta3b/" "elib-1.0/" "git-emacs-master/" "global-6.2.7.tar.gz" "../" "jdee-2.4.0.1/" "ecb-2.40/" "session-2.3a.tar.gz" "./" "cedet-1.0beta3b.tar.gz" "phablet-flash/" "05 - 甲午中日战争：划着洗澡盆都能过来的日本人_medium.mp4.part" "05 - 甲午中日战争：划着洗澡盆都能过来的日本人_medium (1).mp4" "jdee-bin-2.4.0.1.zip" "git-emacs-master.zip" "EMACS教程.pdf" "cedet-1.1/" "ibus-el-0.3.2/" "cedet-1.1.tar.gz" "05 - 甲午中日战争：划着洗澡盆都能过来的日本人_medium.mp4" "global-6.2.7/" "ecb-2.40.tar.gz")
+
+ ("/home/" (20448 7010) "leon/" "../" "./")
+
+ ("/home/leon/test/" (20830 32946) "org-mode.txt" "../" "./" "#test.txt#" "test.txt")
+
+ ("/home/leon/Pictures/" (20830 59884) "emacs_weibo.png" "../" "./" "kevin.jpg" "zz025473eabde80f748369.jpg" "230-120GQ54920W4.jpg")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
